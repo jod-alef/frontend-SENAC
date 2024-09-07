@@ -5,37 +5,94 @@
     <meta name="viewport">
     <title>Curso de Idiomas Wizard</title>
     <style>
+    *{
+        margin: 0;
+    }
     .responsive {
         width: 100%;
         height: auto;
     }
-    .logo {
-        display: block;
-        width: 268px;
-        height: 102%;
-        background-color: #002C4F;
+    #topo{
+        background-color:lightgray;
+        height: 44px;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 98px;
+    }
+    ul li{
+        padding: 10px;
+    }
+    ul li a:link{
+        font-size: 14px;
+        text-decoration: none;   
+        color:#003057;     
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    }
+    ul li a:hover{
+        text-decoration: none;   
+        color:#026dc4;     
+    }
+    #topo nav{
+        height: 44px;
+        display: flex;
+        justify-content: flex-end;
+
+    }
+    #barra_nav nav{
+        height: 88px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #barra_nav a{
+        font-weight: 400;
+        font-size: 18px;
+        display: flex;
+        white-space: nowrap;
+    }
+    #logo{
+        width: 130px;
+        background-color: #003057;
+        height: 88px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #logo img{
+        vertical-align:middle;
     }
     </style>
 </head>
 <body>
-    <header id="topo">
-        <nav style="text-align: right; background-color: lightgray; color: darkblue;">
-            <a href="#">Parcerias</a> |
-            <a href="#">Seja um Franqueado</a> |
-            <a href="#">Inglês na sua escola</a>
-        </nav>
-        <nav>
-            <img src="/imgs/logo-white.webp" alt="Logo da Wizard" class="logo">
-            <ul style="color: darkblue;">
-                <li><a href="#">Cursos</a></li>
-                <li><a href="#">Escolas</a></li>            
-                <li><a href="#">Estude Online</a></li>
-                <li><a href="#">Promoções</a></li>
-                <li><a href="#">Diferenciais</a></li>
-                <li><a href="#">Teste de Inglês</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </nav>
+    <header>
+        <section id="topo">
+            <nav>
+                <ul>
+                    <li><a href="#">Parcerias</a></li>
+                    <li><a href="#">Seja um Franqueado</a></li>
+                    <li><a href="#">Inglês na sua escola</a></li>
+                </ul>
+            </nav>
+        </section>
+        <section id="barra_nav">
+            <nav>
+                <div id="logo">
+                <a href="#"><img src="/imgs/logo-white.webp" alt="Logo da Wizard" height="31px" width="117px"></a>
+                </div>
+                <ul>
+                    <li><a href="#">Cursos</a></li>
+                    <li><a href="#">Escolas</a></li>            
+                    <li><a href="#">Estude Online</a></li>
+                    <li><a href="#">Promoções</a></li>
+                    <li><a href="#">Diferenciais</a></li>
+                    <li><a href="#">Teste de Inglês</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+        </section>
     </header>
 <main>
      <section>
@@ -156,5 +213,6 @@
         <li><a href="#">Mapa do Site</a></li>
     </ul>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

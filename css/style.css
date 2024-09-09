@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+#topo{
+    background-color:lightgray;
+    height: 44px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 98px;
+}
+ul li{
+    padding: 10px;
+}
+ul li a:link{
+    font-size: 14px;
+    text-decoration: none;   
+    color:#003057;     
+}
+ul li a:hover{
+    text-decoration: none;   
+    color:#026dc4;     
+}
+#topo nav{
+    height: 44px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+#barra_nav nav{
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#barra_nav a{
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    white-space: nowrap;
+}
+#logo{
+    width: 178px;
+    background-color: #003057;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo img{
+    vertical-align:middle;
+}
+.cards_diferenciais{
+    justify-content: normal;
+    padding: 0;
+    margin-right: 0;
+}
+.cards_diferenciais li{
+    min-height: 224px;
+    text-align: center;
+    border-radius: 0 0 20px 20px;
+    border-radius: 15px;
+    background-color: #003057;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 0%;
+    max-width: 25%;
+}
+.cards_diferenciais li img{
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 25px;
+    width: 100%;
+}
+.cards_diferenciais li h2{
+    color: #C0EEFE;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+.cards_diferenciais li p{
+    color: #C0EEFE;
+    font-size: 14px;
+    line-height: 19.07px;
+    font-weight: 400;
+    margin: 10px 10px 10px 10px;
+    min-height: 58px;
+    
+}
+.cards_diferenciais a{
+    text-decoration: none;
+    color:#fff;
+    margin-bottom: 25px;
+}
+.ideal{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}

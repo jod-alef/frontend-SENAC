@@ -74,11 +74,13 @@ ul li a:hover{
     margin: 15px;
     padding: 0%;
     max-width: 25%;
+    box-shadow: 1px 1px 1px 1px #333;
 }
 .cards_diferenciais li img{
     border-radius: 15px 15px 0 0;
     margin-bottom: 25px;
     width: 100%;
+    box-shadow: 1px 1px 1px 1px #333;
 }
 .cards_diferenciais li h2{
     color: #C0EEFE;
@@ -101,10 +103,20 @@ ul li a:hover{
 .cards_diferenciais a{
     text-decoration: none;
     color:#fff;
+    font-weight: 400;
+    padding: 10px 0px;
+    border-bottom: solid 1px #fff;
     margin-bottom: 25px;
+}
+.cards_diferenciais h4{
+    margin-bottom: 50px;
 }
 .ideal{
     width: 100%;
     max-width: 1250px;
     margin: 0 auto;
 }
+.splide__slide img {
+    width: 100%;
+    height: auto;
+  }

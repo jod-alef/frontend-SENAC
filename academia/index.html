@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./vars.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    /* Reset básico */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      background-color: #fff;
+    }
+
+    a, button {
+      text-decoration: none;
+    }
+
+    /* Estilo geral */
+    .container {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Seção principal */
+    .header {
+      background-color: #d00000;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .header img {
+      width: 100px;
+    }
+
+    .header h1 {
+      font-size: 2rem;
+      margin-top: 10px;
+    }
+
+    .section-intro {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .section-intro img {
+      width: 100%;
+      max-width: 400px;
+      margin-bottom: 20px;
+    }
+
+    .section-intro p {
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    /* Produtos */
+    .products {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 40px;
+    }
+
+    .product-card {
+      background-color: #f8f8f8;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-card img {
+      width: 100%;
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+
+    .product-card h3 {
+      margin-bottom: 10px;
+    }
+
+    .product-card p {
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+    }
+
+    .product-card button {
+      padding: 10px 20px;
+      background-color: #d00000;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #620909;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      margin-top: 50px;
+    }
+
+    /* Formulário de Contato */
+    .contact-form {
+      background-color: #f1f1f1;
+      padding: 20px;
+      margin-top: 40px;
+      border-radius: 8px;
+    }
+
+    .contact-form h2 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form button {
+      background-color: #d00000;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .contact-form button:hover {
+      background-color: #b00000;
+    }
+
+    /* Mapa */
+    .map {
+      width: 100%;
+      height: 400px;
+      margin-top: 40px;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      .products {
+        grid-template-columns: 1fr;
+      }
+
+      .header h1 {
+        font-size: 1.5rem;
+      }
+
+      .section-intro img {
+        max-width: 300px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header img {
+        width: 80px;
+      }
+
+      .header h1 {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+  <title>Camarada Parrudo</title>
+</head>
+<body>
+  <header class="header">
+    <img src="page-10.png" alt="Logo Camarada Parrudo">
+    <h1>Camarada Parrudo</h1>
+    <p>Equipamentos de Musculação</p>
+  </header>
+
+  <section class="section-intro container">
+    <img src="arnold0.png" alt="Arnold">
+    <p>“Você pode ter resultados ou dar desculpas, nunca os dois”</p>
+    <p>- Arnold Schwarzenegger</p>
+  </section>
+
+  <section class="products container">
+    <div class="product-card">
+      <img src="rubber-combo-with-flat-bench-10.png" alt="Produto 1">
+      <h3>Kit Proletariado I</h3>
+      <p>O kit da classe trabalhadora que não se vende ao BIG-GYM e constrói seu físico com a força de seu trabalho.</p>
+      <button>Permutar</button>
+    </div>
+    <div class="product-card">
+      <img src="rubber-combo-with-flat-bench-12.png" alt="Produto 2">
+      <h3>Kit Proletariado II</h3>
+      <p>Quer levantar aquelas sacas de batata sem esforço? Então esse kit é para você!</p>
+      <button>Permutar</button>
+    </div>
+  </section>
+
+  <section class="contact-form container">
+    <h2>Entre em Contato</h2>
+    <form>
+      <input type="text" name="name" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu email" required>
+      <textarea name="message" rows="5" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section class="map container">
+    <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-9.1342%2C38.7072%2C-9.1332%2C38.7082&layer=mapnik" 
+    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Camarada Parrudo. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

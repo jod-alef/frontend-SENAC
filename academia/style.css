@@ -1,0 +1,304 @@
+.android-large-1,
+.android-large-1 * {
+  box-sizing: border-box;
+}
+.android-large-1 {
+  background: #ffffff;
+  height: 800px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-4 {
+  background: #ffffff;
+  width: 362px;
+  height: 152px;
+  position: absolute;
+  left: 0px;
+  top: 307px;
+}
+.rectangle-5 {
+  background: #d9d9d9;
+  width: 362px;
+  height: 152px;
+  position: absolute;
+  left: 0px;
+  top: 459px;
+}
+.rectangle-6 {
+  background: #ffffff;
+  width: 362px;
+  height: 152px;
+  position: absolute;
+  left: 0px;
+  top: 610px;
+}
+.rectangle-1 {
+  background: #d00000;
+  width: 360px;
+  height: 102px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
+}
+.camarada-parrudo {
+  color: #ffffff;
+  text-align: right;
+  font-family: "KodeMono-Bold", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  position: absolute;
+  left: 175px;
+  top: 16px;
+  width: 163px;
+  height: 48px;
+}
+.equipamentos-de-muscula-o {
+  color: #ffffff;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 163px;
+  top: 78px;
+  width: 203px;
+  height: 23px;
+}
+.page-1 {
+  width: 129px;
+  height: 118px;
+  position: absolute;
+  left: 20px;
+  top: 0px;
+  object-fit: cover;
+}
+.arnold {
+  width: 360px;
+  height: 169px;
+  position: absolute;
+  left: 0px;
+  top: 101px;
+  object-fit: cover;
+}
+.voc-pode-ter-resultados-ou-dar-desculpas-nunca-os-dois {
+  color: #ffffff;
+  text-align: left;
+  font-family: "LeagueGothic-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 20px;
+  top: 162px;
+  width: 265px;
+  height: 65px;
+}
+.arnold-schwarzenegger {
+  color: #ffffff;
+  text-align: left;
+  font-family: "LeagueGothic-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: 99px;
+  top: 227px;
+}
+.rectangle-2 {
+  background: #620909;
+  width: 360px;
+  height: 36px;
+  position: absolute;
+  left: 0px;
+  top: 269px;
+}
+.produtos {
+  color: #ffffff;
+  text-align: left;
+  font-family: "LeagueGothic-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 282px;
+  top: 272px;
+  width: 69px;
+  height: 23px;
+}
+.line-1 {
+  width: 304px;
+  height: 0px;
+  position: absolute;
+  left: 346px;
+  top: 297.5px;
+  transform: translate(-304px, -1px);
+  overflow: visible;
+}
+.rubber-combo-with-flat-bench-1 {
+  width: 132px;
+  height: 127px;
+  position: absolute;
+  left: 26px;
+  top: 317px;
+  object-fit: cover;
+}
+.rubber-combo-with-flat-bench-12 {
+  width: 132px;
+  height: 127px;
+  position: absolute;
+  left: 26px;
+  top: 620px;
+  object-fit: cover;
+}
+.kit-proletariado-i {
+  color: #000000;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 200px;
+  top: 317px;
+  width: 133px;
+}
+.kit-proletariado-ii {
+  color: #000000;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 23px;
+  top: 470px;
+  width: 157px;
+  height: 25px;
+}
+.kit-proletariado-i2 {
+  color: #000000;
+  text-align: left;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  position: absolute;
+  left: 200px;
+  top: 620px;
+  width: 133px;
+}
+.o-kit-da-classe-trabalhadora-que-n-o-se-vende-ao-big-gym-e-constroi-seu-f-sico-com-a-for-a-de-seu-trabalho {
+  color: #000000;
+  text-align: right;
+  font-family: "IstokWeb-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 163px;
+  top: 342px;
+  width: 169px;
+  height: 90px;
+}
+.quer-levantar-aquelas-sacas-de-batata-sem-esfor-o-ent-o-esse-kit-para-voc {
+  color: #000000;
+  text-align: left;
+  font-family: "IstokWeb-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 23px;
+  top: 495px;
+  width: 169px;
+}
+.o-kit-da-classe-trabalhadora-que-n-o-se-vende-ao-big-gym-e-constroi-seu-f-sico-com-a-for-a-de-seu-trabalho2 {
+  color: #000000;
+  text-align: right;
+  font-family: "IstokWeb-Regular", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  position: absolute;
+  left: 163px;
+  top: 645px;
+  width: 169px;
+  height: 90px;
+}
+.rectangle-3 {
+  background: #b7b7b7;
+  border-style: solid;
+  border-color: #df0606;
+  border-width: 1px 0px 1px 0px;
+  width: 144px;
+  height: 32px;
+  position: absolute;
+  left: 194px;
+  top: 416px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-8 {
+  background: #b7b7b7;
+  border-style: solid;
+  border-color: #df0606;
+  border-width: 1px 0px 1px 0px;
+  width: 144px;
+  height: 32px;
+  position: absolute;
+  left: 23px;
+  top: 565px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.rectangle-9 {
+  background: #b7b7b7;
+  border-style: solid;
+  border-color: #df0606;
+  border-width: 1px 0px 1px 0px;
+  width: 144px;
+  height: 32px;
+  position: absolute;
+  left: 194px;
+  top: 719px;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.permutar {
+  color: #000000;
+  text-align: right;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 217px;
+  top: 423px;
+  width: 77px;
+}
+.permutar2 {
+  color: #000000;
+  text-align: right;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 46px;
+  top: 572px;
+  width: 77px;
+}
+.permutar3 {
+  color: #000000;
+  text-align: right;
+  font-family: "IstokWeb-Bold", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  position: absolute;
+  left: 217px;
+  top: 726px;
+  width: 77px;
+}
+.rectangle-7 {
+  background: #620909;
+  width: 360px;
+  height: 39px;
+  position: absolute;
+  left: 0px;
+  top: 761px;
+}
+.rubber-combo-with-flat-bench-13 {
+  width: 132px;
+  height: 127px;
+  position: absolute;
+  left: 206px;
+  top: 469px;
+  object-fit: cover;
+}

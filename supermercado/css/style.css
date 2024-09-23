@@ -1,0 +1,34 @@
+/* Reseta as margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero {
+    background-color: #f8f9fa;
+}
+
+.produtos h2 {
+    font-size: 28px;
+}
+
+.produto img {
+    max-width: 150px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}

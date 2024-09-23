@@ -1,304 +1,175 @@
-.android-large-1,
-.android-large-1 * {
-  box-sizing: border-box;
-}
-.android-large-1 {
-  background: #ffffff;
-  height: 800px;
-  position: relative;
-  overflow: hidden;
-}
-.rectangle-4 {
-  background: #ffffff;
-  width: 362px;
-  height: 152px;
-  position: absolute;
-  left: 0px;
-  top: 307px;
-}
-.rectangle-5 {
-  background: #d9d9d9;
-  width: 362px;
-  height: 152px;
-  position: absolute;
-  left: 0px;
-  top: 459px;
-}
-.rectangle-6 {
-  background: #ffffff;
-  width: 362px;
-  height: 152px;
-  position: absolute;
-  left: 0px;
-  top: 610px;
-}
-.rectangle-1 {
-  background: #d00000;
-  width: 360px;
-  height: 102px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  box-shadow: 0px 4px 4px 3px rgba(0, 0, 0, 0.25);
-}
-.camarada-parrudo {
-  color: #ffffff;
-  text-align: right;
-  font-family: "KodeMono-Bold", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  position: absolute;
-  left: 175px;
-  top: 16px;
-  width: 163px;
-  height: 48px;
-}
-.equipamentos-de-muscula-o {
-  color: #ffffff;
-  text-align: left;
-  font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  position: absolute;
-  left: 163px;
-  top: 78px;
-  width: 203px;
-  height: 23px;
-}
-.page-1 {
-  width: 129px;
-  height: 118px;
-  position: absolute;
-  left: 20px;
-  top: 0px;
-  object-fit: cover;
-}
-.arnold {
-  width: 360px;
-  height: 169px;
-  position: absolute;
-  left: 0px;
-  top: 101px;
-  object-fit: cover;
-}
-.voc-pode-ter-resultados-ou-dar-desculpas-nunca-os-dois {
-  color: #ffffff;
-  text-align: left;
-  font-family: "LeagueGothic-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 20px;
-  top: 162px;
-  width: 265px;
-  height: 65px;
-}
-.arnold-schwarzenegger {
-  color: #ffffff;
-  text-align: left;
-  font-family: "LeagueGothic-Regular", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  position: absolute;
-  left: 99px;
-  top: 227px;
-}
-.rectangle-2 {
-  background: #620909;
-  width: 360px;
-  height: 36px;
-  position: absolute;
-  left: 0px;
-  top: 269px;
-}
-.produtos {
-  color: #ffffff;
-  text-align: left;
-  font-family: "LeagueGothic-Regular", sans-serif;
-  font-size: 24px;
-  font-weight: 400;
-  position: absolute;
-  left: 282px;
-  top: 272px;
-  width: 69px;
-  height: 23px;
-}
-.line-1 {
-  width: 304px;
-  height: 0px;
-  position: absolute;
-  left: 346px;
-  top: 297.5px;
-  transform: translate(-304px, -1px);
-  overflow: visible;
-}
-.rubber-combo-with-flat-bench-1 {
-  width: 132px;
-  height: 127px;
-  position: absolute;
-  left: 26px;
-  top: 317px;
-  object-fit: cover;
-}
-.rubber-combo-with-flat-bench-12 {
-  width: 132px;
-  height: 127px;
-  position: absolute;
-  left: 26px;
-  top: 620px;
-  object-fit: cover;
-}
-.kit-proletariado-i {
-  color: #000000;
-  text-align: left;
-  font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  position: absolute;
-  left: 200px;
-  top: 317px;
-  width: 133px;
-}
-.kit-proletariado-ii {
-  color: #000000;
-  text-align: left;
-  font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  position: absolute;
-  left: 23px;
-  top: 470px;
-  width: 157px;
-  height: 25px;
-}
-.kit-proletariado-i2 {
-  color: #000000;
-  text-align: left;
-  font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 13px;
-  font-weight: 700;
-  position: absolute;
-  left: 200px;
-  top: 620px;
-  width: 133px;
-}
-.o-kit-da-classe-trabalhadora-que-n-o-se-vende-ao-big-gym-e-constroi-seu-f-sico-com-a-for-a-de-seu-trabalho {
-  color: #000000;
-  text-align: right;
-  font-family: "IstokWeb-Regular", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  position: absolute;
-  left: 163px;
-  top: 342px;
-  width: 169px;
-  height: 90px;
-}
-.quer-levantar-aquelas-sacas-de-batata-sem-esfor-o-ent-o-esse-kit-para-voc {
-  color: #000000;
-  text-align: left;
-  font-family: "IstokWeb-Regular", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  position: absolute;
-  left: 23px;
-  top: 495px;
-  width: 169px;
-}
-.o-kit-da-classe-trabalhadora-que-n-o-se-vende-ao-big-gym-e-constroi-seu-f-sico-com-a-for-a-de-seu-trabalho2 {
-  color: #000000;
-  text-align: right;
-  font-family: "IstokWeb-Regular", sans-serif;
-  font-size: 12px;
-  font-weight: 400;
-  position: absolute;
-  left: 163px;
-  top: 645px;
-  width: 169px;
-  height: 90px;
-}
-.rectangle-3 {
-  background: #b7b7b7;
-  border-style: solid;
-  border-color: #df0606;
-  border-width: 1px 0px 1px 0px;
-  width: 144px;
-  height: 32px;
-  position: absolute;
-  left: 194px;
-  top: 416px;
-  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.rectangle-8 {
-  background: #b7b7b7;
-  border-style: solid;
-  border-color: #df0606;
-  border-width: 1px 0px 1px 0px;
-  width: 144px;
-  height: 32px;
-  position: absolute;
-  left: 23px;
-  top: 565px;
-  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.rectangle-9 {
-  background: #b7b7b7;
-  border-style: solid;
-  border-color: #df0606;
-  border-width: 1px 0px 1px 0px;
-  width: 144px;
-  height: 32px;
-  position: absolute;
-  left: 194px;
-  top: 719px;
-  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-.permutar {
-  color: #000000;
-  text-align: right;
-  font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  position: absolute;
-  left: 217px;
-  top: 423px;
-  width: 77px;
-}
-.permutar2 {
-  color: #000000;
-  text-align: right;
-  font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  position: absolute;
-  left: 46px;
-  top: 572px;
-  width: 77px;
-}
-.permutar3 {
-  color: #000000;
-  text-align: right;
-  font-family: "IstokWeb-Bold", sans-serif;
-  font-size: 14px;
-  font-weight: 700;
-  position: absolute;
-  left: 217px;
-  top: 726px;
-  width: 77px;
-}
-.rectangle-7 {
-  background: #620909;
-  width: 360px;
-  height: 39px;
-  position: absolute;
-  left: 0px;
-  top: 761px;
-}
-.rubber-combo-with-flat-bench-13 {
-  width: 132px;
-  height: 127px;
-  position: absolute;
-  left: 206px;
-  top: 469px;
-  object-fit: cover;
-}
+   /* Reset básico */
+   *, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+  }
+
+  a, button {
+    text-decoration: none;
+  }
+
+  /* Estilo geral */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  /* Seção principal */
+  .header {
+    background-color: #d00000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .header img {
+    width: 100px;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+
+  .section-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .section-intro img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .section-intro p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+
+  /* Produtos */
+  .products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 40px;
+  }
+
+  .product-card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .product-card img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+  }
+
+  .product-card h3 {
+    margin-bottom: 10px;
+  }
+
+  .product-card p {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+
+  .product-card button {
+    padding: 10px 20px;
+    background-color: #d00000;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #620909;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  /* Formulário de Contato */
+  .contact-form {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 8px;
+  }
+
+  .contact-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .contact-form button {
+    background-color: #d00000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .contact-form button:hover {
+    background-color: #b00000;
+  }
+
+  /* Mapa */
+  .map {
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+  }
+
+  /* Media Queries */
+  @media (max-width: 768px) {
+    .products {
+      grid-template-columns: 1fr;
+    }
+
+    .header h1 {
+      font-size: 1.5rem;
+    }
+
+    .section-intro img {
+      max-width: 300px;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .header img {
+      width: 80px;
+    }
+
+    .header h1 {
+      font-size: 1.2rem;
+    }
+  }
